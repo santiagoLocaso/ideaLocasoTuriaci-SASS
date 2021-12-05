@@ -1,0 +1,48 @@
+body{	
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
+}
+
+$txAlign: center;
+$posRelat: relative;
+@media only screen and (min-width: 1024px) {
+	#navbarNav{
+		justify-content: flex-end;
+		ul{
+			font-size: 25px;
+		}
+	}
+	main{
+		overflow: hidden;
+	}
+	.fondoIndex{
+		width: 100%;
+
+	}
+	.titulo{
+		text-align: $txAlign;
+		text-decoration: underline;
+	}
+	.descripcion{
+		font-size: 45px;
+		text-align: $txAlign;
+		position: $posRelat;
+		top: 250px;
+	}
+	.contenido{
+		position: $posRelat;
+		top: 50px;
+	}
+	.redes{
+		display: inline-block;
+		.whatsapp{
+			width: 6%;
+		}
+		.facebook{
+			width: 11%;
+		}
+		.instagram{
+			width: 7%;
+		}
+	}	
+}

@@ -1,0 +1,32 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif; }
+
+@media only screen and (min-width: 1024px) {
+  #navbarNav {
+    justify-content: flex-end; }
+    #navbarNav ul {
+      font-size: 25px; }
+  main {
+    overflow: hidden; }
+  .fondoIndex {
+    width: 100%; }
+  .titulo {
+    text-align: center;
+    text-decoration: underline; }
+  .descripcion {
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    top: 250px; }
+  .contenido {
+    position: relative;
+    top: 50px; }
+  .redes {
+    display: inline-block; }
+    .redes .whatsapp {
+      width: 6%; }
+    .redes .facebook {
+      width: 11%; }
+    .redes .instagram {
+      width: 7%; } }
